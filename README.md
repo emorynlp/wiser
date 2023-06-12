@@ -1,9 +1,17 @@
 # Widely Interpretable Meaning Representation
 
-This folder contains:
+The Widely Interpretable Semantic Representation (WISeR) aims to capture abstract and concrete concepts, along with their relations, within plain text. A key objective of this project is to develop a meaning representation that can be seamlessly transformed into semantic graphs, enabling probabilistic reasoning in the context of dialogue. WISeR differentiates itself from the broader concept of Abstract Meaning Representation (AMR) through its unique features and characteristics such as:
 
-- The dialogue corpus from [anonymous submission] annotated in AMR, WISeR, and an automatic conversion of AMR into WISeR.
-- The converted (trimmed) AMR3.0 --> WISeR corpus (with Train, Dev, Test split).
-- The guidelines used by annotators during the annotation task.
+* It provides deeper and richer levels of abstraction.
+* It is Interpretable by non-experts in computational structures.
+* It covers relations across utterances (e.g., referents, external arguments).
 
-Processing and evaluation scripts will be released on our public github repository when anonymization period is complete.
+## Resources
+
+* [WISeR GUidelines](docs/wiser_guidelines.pdf)
+* [wiser-amr3](wiser-amr3/): the [AMR 3.0](https://catalog.ldc.upenn.edu/LDC2020T02) corpus converted into WISeR
+* [wiser-dialogue](wiser-dialogue/): the new dialogue corpus annotated in AMR and WISeR.
+
+## Contact
+
+* [Jinho D. Choi](https://www.emorynlp.org/faculty/jinho-choi)
